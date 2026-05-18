@@ -22,12 +22,6 @@ Install the required Python packages before running the script.
 pip install torch transformers scikit-learn numpy tqdm
 ```
 
-If a `requirements.txt` file is provided, you can alternatively run:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ## 2. Dataset Preparation
