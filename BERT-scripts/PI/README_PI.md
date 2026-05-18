@@ -315,27 +315,3 @@ The label column must contain binary labels:
 ```
 
 ---
-
-## Notes for Anonymous Submission
-
-For double-anonymous or blind-review submissions:
-
-- Do not include personal names in file paths.
-- Do not include institute-specific or lab-specific paths.
-- Do not include private GitHub, Google Drive, or server links.
-- Use relative paths such as `./dataset` and `./outputs/pi_models`.
-- Keep repository names and folder names neutral.
-
-Recommended:
-
-```text
-./dataset
-./outputs/pi_models
-```
-
-Avoid:
-
-```text
-/home/username/...
-/Users/username/Desktop/...
-```
