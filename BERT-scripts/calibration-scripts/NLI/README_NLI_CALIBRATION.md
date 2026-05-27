@@ -203,23 +203,3 @@ or
 ```
 
 `quantile` binning creates bins with approximately similar numbers of examples. `fixed` binning uses equal-width confidence intervals.
-
-## Notes for anonymized submission
-
-Use relative paths only, for example:
-
-```text
-./snli_1.0/snli_1.0_test.txt
-./outputs/snli_nli_models
-./outputs/nli_calibration
-```
-
-Avoid including paths such as:
-
-```text
-/home/username/...
-/Users/username/...
-/private/server/path/...
-```
-
-Do not include private repository links, cloud-drive links, usernames, server names, or API keys in the script or README.
