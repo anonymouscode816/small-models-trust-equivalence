@@ -227,17 +227,6 @@ For each sample:
 
 Then the average Jaccard similarity is computed across aligned samples for each model pair.
 
-## 9. Anonymous Submission Notes
-
-For anonymous or double-blind review:
-
-- Use relative paths such as `./data/questions.csv` and `./outputs/pi_lime`.
-- Do not include usernames in paths.
-- Do not include institution-specific directory names.
-- Do not include private GitHub, Google Drive, Dropbox, or server links.
-- Do not include API keys, access tokens, or Hugging Face tokens.
-- Keep checkpoint folders and output folders neutral.
-
 Recommended command style:
 
 ```bash
