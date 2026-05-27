@@ -381,16 +381,3 @@ python3 create_pi_shap_jaccard_table_anonymized.py \
   --num_runs 3 \
   --k 10
 ```
-
----
-
-## 15. Notes for Anonymous Submission
-
-Before submitting the repository or supplementary code:
-
-- Use relative paths only.
-- Do not include usernames, local machine paths, institution-specific paths, or private server paths.
-- Do not include private GitHub, Google Drive, Dropbox, or internal cluster links.
-- Do not include API keys, tokens, passwords, or SSH keys.
-- Keep output folders neutral, for example `outputs/pi_shap` and `outputs/pi_shap_jaccard_tables`.
-- Use an anonymous repository or anonymized archive for double-anonymous review.
